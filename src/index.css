@@ -1,0 +1,72 @@
+body{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container_box {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 25px;
+  border: 2px solid rgb(178, 174, 174);
+  border-radius: 6px;
+}
+
+
+.password_length{
+  padding-left: 20px;
+  display: flex;
+  justify-content:space-between;
+  width: 50vw;
+}
+.main {
+  width : 75vw;
+  height: 50vh;
+}
+
+.checkbox{
+  padding-left: 20px;
+  width: 100%;
+  text-align: start;
+}
+.input{
+  width: 65vw;
+  height: 5vh;
+  border-radius: 5px;
+  position: relative;
+}
+.generated-btn{
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: 700;
+  width: 65vw;
+  height: 6vh;
+  background-color: rgba(7, 189, 177, 0.838);
+  border: transparent;
+  color : white;
+  border-radius: 5px;
+}
+
+.option{
+  width : 130px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding-left: 20px;
+  
+}
+.copy{
+ position: absolute;
+ height: 3.7vh;
+ background-color: rgb(9, 137, 137);
+ color: white;
+ border:none;
+ cursor: pointer;
+
+}
+
+.password_header{
+  text-align: center;
+}
